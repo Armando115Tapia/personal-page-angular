@@ -3,5 +3,13 @@
         "title": "Internacionalización de una aplicación angular",
         "englishLabel": "Ingles",
         "spanishLabel": "Español"
+    },
+    "navBar": {
+        "about_me": "Acerca de Mi!",
+        "proyects": "Proyectos",
+        "awesome_tools": "Herramientas increibles",
+        "contact": "Contacto",
+        "awesome_repositories": "Repositorios increibles",
+        "post": "Entradas"
     }
 }

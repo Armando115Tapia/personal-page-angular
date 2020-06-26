@@ -3,5 +3,13 @@
         "title": "Internationalization of an angular application",
         "englishLabel": "English",
         "spanishLabel": "Spanish"
+    },
+    "navBar": {
+        "about_me": "About me!",
+        "proyects": "Proyects",
+        "awesome_tools": "Awesome Tools",
+        "contact": "Contact",
+        "awesome_repositories": "Awesome Repositories",
+        "post": "post"
     }
 }
