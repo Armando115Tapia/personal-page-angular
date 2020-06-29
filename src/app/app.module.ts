@@ -9,13 +9,14 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BodyComponent } from './components/body/body.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, FooterComponent, BodyComponent],
+  declarations: [AppComponent, NavbarComponent, FooterComponent, BodyComponent, AboutMeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

@@ -11,5 +11,9 @@
         "contact": "Contacto",
         "awesome_repositories": "Repositorios increibles",
         "post": "Entradas"
+    },
+    "aboutMe": {
+        "Description": "Acerca de mí",
+        "paragraph1": "Desarrollador Web, enfocado mas a backend con node y principios SOLID"
     }
 }

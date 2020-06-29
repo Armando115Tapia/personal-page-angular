@@ -7,3 +7,7 @@
   background-color: #353a40;
   color: white;
 }
+
+.navbar_ul--center {
+  margin: auto;
+}
