@@ -27,14 +27,16 @@
                     aria-disabled="true">{{ 'navBar.post' | translate }}</a>
             </li>
             <li>
-                <select (change)="changeLanguage($event.target.value)">
-                    <option value="es">
-                        {{ 'home.spanishLabel' | translate }}
-                    </option>
-                    <option value="en">
-                        {{ 'home.englishLabel' | translate }}
-                    </option>
-                </select>
+                <div class="navbar_select--position form-group">
+                    <select class="navbar_select--color" (change)="changeLanguage($event.target.value)">
+                        <option value="es">
+                            {{ 'home.spanishLabel' | translate }}
+                        </option>
+                        <option value="en">
+                            {{ 'home.englishLabel' | translate }}
+                        </option>
+                    </select>
+                </div>
             </li>
         </ul>
     </div>

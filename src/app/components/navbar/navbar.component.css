@@ -1,0 +1,9 @@
+.navbar_select--position {
+  padding: 8px 0px 0px 10px;
+}
+
+.navbar_select--color {
+  width: 100px;
+  background-color: #353a40;
+  color: white;
+}
