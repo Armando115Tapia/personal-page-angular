@@ -14,8 +14,19 @@
     },
     "aboutMe": {
         "Description": "About me!!",
-        "paragraph1": "I am developer web, focus especialy in backend with node, solid principes, ang patter designs bla bla bla",
+        "paragraph_0": "I am developer web, focus especialy in backend with node, solid principes, ang patter designs bla bla bla",
+        "paragraph_1": "Decidí ser desarrollador web cuando descubrí todas las tecnologías que estan invloucradas en desarrollo de una aplicación web",
+        "paragraph_2": "Desarrollador Web, enfocado mas a backend con node y principios SOLID",
+        "paragraph_3": "Para más información ...",
         "skills": "Skills",
         "moreDetails": "Click to see details"
+    },
+    "skills": {
+        "skill_1": "Knowlendge about management branchs, merge and sufficent for remote work.",
+        "skill_2": "Create of APIs RESTful, conection with database, ORMs and in the future microservices.",
+        "skill_3": "Intermediate use of Angular, SPA, PWA, etc",
+        "skill_4": "Indixes, backups, management of users and querys",
+        "skill_5": "Amazon S3, EC2, SES,Lightsail",
+        "skill_6": "Constantly learing , Arquitectura de N capas, Arquitectura hexagonal"
     }
 }

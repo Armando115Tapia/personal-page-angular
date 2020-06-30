@@ -14,8 +14,19 @@
     },
     "aboutMe": {
         "Description": "Acerca de mí",
-        "paragraph1": "Desarrollador Web, enfocado mas a backend con node y principios SOLID",
+        "paragraph_0": "Saludos desde Quito-Ecuador, ingeniero en sistemas, en este proceso fue que descubrí que iba a dedicarme al desarrollo web, al saberlo antes huubiera estudiado ingeniera en software.",
+        "paragraph_1": "Durante mi vida labora mas me he dedicado al al backend, especialmente utilizando tecnologías javascript y el framework express, pero además he incursionado un poco en el frontend utilizando Angular",
+        "paragraph_2": "Actualmente estoy siempre aprendiendo sobre buenas prácticas, principios SOLID, Arquitecturas, seguridades y todo lo relacionado con informática.",
+        "paragraph_3": "Para más información, pulsa aquí...",
         "skills": "Habilidades",
         "moreDetails": "Click para ver mas detalles"
+    },
+    "skills": {
+        "skill_1": "Conocimientos suficientes para realizar trabajo remoto, creación, unión de ramas. etc.",
+        "skill_2": "Creación de APIs RESTful, conexión a base de datos, ORMs y próximamente microservicios",
+        "skill_3": "Conocimientos intermedios de Angular, SPA, PWA, etc",
+        "skill_4": "Índices, backups, gestión de usuarios y consultas en general",
+        "skill_5": "Amazon S3, EC2, SES,Lightsail",
+        "skill_6": "Aprendiendo pattroes de diseño, principios Solid, Arquitectura de N capas, Arquitectura hexagonal"
     }
 }

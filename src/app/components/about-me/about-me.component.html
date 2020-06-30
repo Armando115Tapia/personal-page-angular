@@ -1,76 +1,73 @@
 <div class="container aboutme__container--background">
-    <div class="row">
-        <div class="col-12 text-center my-3">
+    <div class="row aboutme_row--potho">
+        <div class="col-12 text-center my-2">
             <h1>Armando Tapia </h1>
         </div>
         <div class="col-12 col-sm-6 text-center">
             <div>
-                <img src="../../../assets/img/atc_1.jpg" class="aboutme_imagen_circle" alt="">
+                <img src="/assets/img/atc_1.jpg" class="aboutme_imagen_circle pb-3" alt="Image Armando Tapia">
             </div>
         </div>
         <div class="col-12 col-sm-6">
             <h3>{{ 'aboutMe.Description' | translate }}</h3>
-            <p>{{ 'aboutMe.paragraph1' | translate }}</p>
+            <p>{{ 'aboutMe.paragraph_0' | translate }}</p>
+            <p>{{ 'aboutMe.paragraph_1' | translate }}</p>
+            <p>{{ 'aboutMe.paragraph_2' | translate }} <br> <span> {{ 'aboutMe.paragraph_3' | translate }}</span></p>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eveniet accusamus ratione
-                blanditiis qui temporibus iure magni quis. Sint earum et aut reprehenderit vel voluptas maxime, nisi qui
-                expedita velit.</p>
+
         </div>
     </div>
-    <div class='row text-center'>
-        <div class="col-12">
+    <div class='row text-center' style="background-color:blueviolet">
+        <div class="col-12 my-3">
             <h3>{{ 'aboutMe.skills' | translate }}</h3>
         </div>
         <div class="col-12 col-sm-6">
 
-            <div class="card my-2">
-                <div (mouseover)="test()" class="card-body">
+            <div (click)="showDetails('git')" class="card m-2">
+                <div class="card-body">
                     <h5 class="card-title">Git/Gitflow</h5>
-                    <p (click)="showDetails('git')">{{ 'aboutMe.moreDetails' | translate }}</p>
-                    <p *ngIf="show_git">Conocimientos suficientes para realizar trabajo remoto,
-                        creación, unión de
-                        ramas. etc.</p>
+                    <p>{{ 'aboutMe.moreDetails' | translate }}</p>
+                    <p *ngIf="show_git"> {{ 'skills.skill_1' | translate }}</p>
 
                 </div>
             </div>
-            <div class="card my-2">
+            <div (click)="showDetails('node')" class="card m-2">
                 <div class="card-body">
                     <h5 class="card-title">Node</h5>
                     <p>{{ 'aboutMe.moreDetails' | translate }}</p>
-                    <p>Creación de APIs RESTful, conexión a base de datos, ORMs y próximamente microservicios.</p>
+                    <p *ngIf="show_node"> {{ 'skills.skill_2' | translate }}</p>
                 </div>
             </div>
-            <div class="card my-2">
+            <div (click)="showDetails('angular')" class="card m-2">
                 <div class="card-body">
                     <h5 class="card-title">Angular</h5>
                     <p>{{ 'aboutMe.moreDetails' | translate }}</p>
-                    <p>Conocimientos intermedios de Angular, SPA, PWA, etc.</p>
+                    <p *ngIf="show_angular">{{ 'skills.skill_3' | translate }}</p>
                 </div>
             </div>
 
         </div>
         <div class="col-12 col-sm-6">
 
-            <div class="card my-2">
+            <div (click)="showDetails('mongo')" class="card m-2">
                 <div class="card-body">
                     <h5 class="card-title">Mongo</h5>
                     <p>{{ 'aboutMe.moreDetails' | translate }}</p>
-                    <p>Índices, backups, gestión de usuarios y consultas en general.</p>
+                    <p *ngIf="show_mongo">{{ 'skills.skill_4' | translate }}</p>
                 </div>
             </div>
-            <div class="card my-2">
+            <div (click)="showDetails('aws')" class="card m-2">
                 <div class="card-body">
                     <h5 class="card-title">Aws</h5>
                     <p>{{ 'aboutMe.moreDetails' | translate }}</p>
-                    <p>Amazon S3, EC2, SES,Lightsail.</p>
+                    <p *ngIf="show_aws"> {{ 'skills.skill_5' | translate }} </p>
                 </div>
             </div>
-            <div class="card my-2">
+            <div (click)="showDetails('goodPractices')" class="card m-2">
                 <div class="card-body">
                     <h5 class="card-title">Buenas práctias</h5>
                     <p>{{ 'aboutMe.moreDetails' | translate }}</p>
-                    <p>Aprendiendo pattroes de diseño, principios Solid, Arquitectura de N capas, Arquitectura
-                        hexagonal.</p>
+                    <p *ngIf="show_goodPractices">{{ 'skills.skill_6' | translate }}</p>
                 </div>
             </div>
 
