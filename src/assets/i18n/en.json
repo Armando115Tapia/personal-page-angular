@@ -14,6 +14,8 @@
     },
     "aboutMe": {
         "Description": "About me!!",
-        "paragraph1": "I am developer web, focus especialy in backend with node, solid principes, ang patter designs bla bla bla"
+        "paragraph1": "I am developer web, focus especialy in backend with node, solid principes, ang patter designs bla bla bla",
+        "skills": "Skills",
+        "moreDetails": "Click to see details"
     }
 }

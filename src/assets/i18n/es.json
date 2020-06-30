@@ -14,6 +14,8 @@
     },
     "aboutMe": {
         "Description": "Acerca de mí",
-        "paragraph1": "Desarrollador Web, enfocado mas a backend con node y principios SOLID"
+        "paragraph1": "Desarrollador Web, enfocado mas a backend con node y principios SOLID",
+        "skills": "Habilidades",
+        "moreDetails": "Click para ver mas detalles"
     }
 }

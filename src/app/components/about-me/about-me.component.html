@@ -17,14 +17,59 @@
                 expedita velit.</p>
         </div>
     </div>
-    <div class='row'>
+    <div class='row text-center'>
         <div class="col-12">
-            skills
+            <h3>{{ 'aboutMe.skills' | translate }}</h3>
+        </div>
+        <div class="col-12 col-sm-6">
+
+            <div class="card my-2">
+                <div class="card-body">
+                    <h5 class="card-title">Git/Gitflow</h5>
+                    <p (click)="clg()">{{ 'aboutMe.moreDetails' | translate }}</p>
+                    <p *ngIf="show_git">Aquí voy a colocar alguna información detallada sobre la herramienta....</p>
+
+                </div>
+            </div>
+            <div class="card my-2">
+                <div class="card-body">
+                    <h5 class="card-title">Node</h5>
+                    <p>{{ 'aboutMe.moreDetails' | translate }}</p>
+                </div>
+            </div>
+            <div class="card my-2">
+                <div class="card-body">
+                    <h5 class="card-title">Angular</h5>
+                    <p>{{ 'aboutMe.moreDetails' | translate }}</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-12 col-sm-6">
+
+            <div class="card my-2">
+                <div class="card-body">
+                    <h5 class="card-title">Mongo</h5>
+                    <p>{{ 'aboutMe.moreDetails' | translate }}</p>
+                </div>
+            </div>
+            <div class="card my-2">
+                <div class="card-body">
+                    <h5 class="card-title">Aws</h5>
+                    <p>{{ 'aboutMe.moreDetails' | translate }}</p>
+                </div>
+            </div>
+            <div class="card my-2">
+                <div class="card-body">
+                    <h5 class="card-title">Typescript</h5>
+                    <p>{{ 'aboutMe.moreDetails' | translate }}</p>
+                </div>
+            </div>
+
         </div>
         <div class="col-12 ">
             Buton proyects
         </div>
     </div>
-
 
 </div>
