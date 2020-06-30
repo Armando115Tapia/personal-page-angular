@@ -3,12 +3,12 @@
         <div class="col-12 text-center my-2">
             <h1>Armando Tapia </h1>
         </div>
-        <div class="col-12 col-sm-6 text-center">
+        <div class="col-12 col-sm-12 col-md-6 text-center">
             <div>
                 <img src="/assets/img/atc_1.jpg" class="aboutme_imagen_circle pb-3" alt="Image Armando Tapia">
             </div>
         </div>
-        <div class="col-12 col-sm-6">
+        <div class="col-12 col-sm-12  col-md-6 ">
             <h3>{{ 'aboutMe.Description' | translate }}</h3>
             <p>{{ 'aboutMe.paragraph_0' | translate }}</p>
             <p>{{ 'aboutMe.paragraph_1' | translate }}</p>
@@ -17,57 +17,64 @@
 
         </div>
     </div>
-    <div class='row text-center' style="background-color:blueviolet">
+    <div class='row text-center skills_row_background'>
         <div class="col-12 my-3">
             <h3>{{ 'aboutMe.skills' | translate }}</h3>
         </div>
-        <div class="col-12 col-sm-6">
+        <div class="col-12 col-sm-12 col-md-6">
 
-            <div (click)="showDetails('git')" class="card m-2">
+            <div (click)="showDetails('git')" class="card m-2 skills_cardGit-backgrund">
                 <div class="card-body">
                     <h5 class="card-title">Git/Gitflow</h5>
                     <p>{{ 'aboutMe.moreDetails' | translate }}</p>
-                    <p *ngIf="show_git"> {{ 'skills.skill_1' | translate }}</p>
+                    <p *ngIf="show_git" class="animate__animated animate__pulse">
+                        {{ 'skills.skill_1' | translate }}
+                    </p>
 
                 </div>
             </div>
-            <div (click)="showDetails('node')" class="card m-2">
+            <div (click)="showDetails('node')" class="card m-2 skills_cardNode-backgrund">
                 <div class="card-body">
                     <h5 class="card-title">Node</h5>
                     <p>{{ 'aboutMe.moreDetails' | translate }}</p>
-                    <p *ngIf="show_node"> {{ 'skills.skill_2' | translate }}</p>
+                    <p *ngIf="show_node" class="animate__animated animate__pulse"> {{ 'skills.skill_2' | translate }}
+                    </p>
                 </div>
             </div>
-            <div (click)="showDetails('angular')" class="card m-2">
+            <div (click)="showDetails('angular')" class="card m-2 skills_cardAngular-backgrund">
                 <div class="card-body">
                     <h5 class="card-title">Angular</h5>
                     <p>{{ 'aboutMe.moreDetails' | translate }}</p>
-                    <p *ngIf="show_angular">{{ 'skills.skill_3' | translate }}</p>
+                    <p *ngIf="show_angular" class="animate__animated animate__pulse">{{ 'skills.skill_3' | translate }}
+                    </p>
                 </div>
             </div>
 
         </div>
-        <div class="col-12 col-sm-6">
+        <div class="col-12 col-sm-12 col-md-6">
 
-            <div (click)="showDetails('mongo')" class="card m-2">
+            <div (click)="showDetails('mongo')" class="card m-2 skills_cardMongo-backgrund">
                 <div class="card-body">
                     <h5 class="card-title">Mongo</h5>
                     <p>{{ 'aboutMe.moreDetails' | translate }}</p>
-                    <p *ngIf="show_mongo">{{ 'skills.skill_4' | translate }}</p>
+                    <p *ngIf="show_mongo" class="animate__animated animate__pulse">{{ 'skills.skill_4' | translate }}
+                    </p>
                 </div>
             </div>
-            <div (click)="showDetails('aws')" class="card m-2">
+            <div (click)="showDetails('aws')" class="card m-2 skills_cardAws-backgrund">
                 <div class="card-body">
                     <h5 class="card-title">Aws</h5>
                     <p>{{ 'aboutMe.moreDetails' | translate }}</p>
-                    <p *ngIf="show_aws"> {{ 'skills.skill_5' | translate }} </p>
+                    <p *ngIf="show_aws" class="animate__animated animate__pulse"> {{ 'skills.skill_5' | translate }}
+                    </p>
                 </div>
             </div>
-            <div (click)="showDetails('goodPractices')" class="card m-2">
+            <div (click)="showDetails('goodPractices')" class="card m-2 skills_cardGoodPractices-backgrund">
                 <div class="card-body">
                     <h5 class="card-title">Buenas práctias</h5>
                     <p>{{ 'aboutMe.moreDetails' | translate }}</p>
-                    <p *ngIf="show_goodPractices">{{ 'skills.skill_6' | translate }}</p>
+                    <p *ngIf="show_goodPractices" class="animate__animated animate__pulse">
+                        {{ 'skills.skill_6' | translate }}</p>
                 </div>
             </div>
 

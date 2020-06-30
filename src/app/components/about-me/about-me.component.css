@@ -4,5 +4,86 @@
 }
 
 .aboutme_row--potho {
-  background-color: aqua;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.skills_row_background {
+  background-color: white;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+.skills_cardGit-backgrund {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("/assets/img/gitflow-1.png");
+  background-size: cover;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.skills_cardNode-backgrund {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("/assets/img/node.png");
+  background-size: cover;
+  border-radius: 20px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.skills_cardAngular-backgrund {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("/assets/img/angular.png");
+  background-size: cover;
+  border-radius: 20px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.skills_cardMongo-backgrund {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("/assets/img/mongo.png");
+  background-size: cover;
+  border-radius: 20px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.skills_cardAws-backgrund {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("/assets/img/aws.png");
+  background-size: cover;
+
+  border-radius: 20px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.skills_cardGoodPractices-backgrund {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("../../../assets/img/arquitecturahex.png");
+  background-size: cover;
+
+  border-radius: 20px;
+  opacity: 0.8;
+  cursor: pointer;
 }
