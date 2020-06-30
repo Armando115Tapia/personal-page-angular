@@ -10,7 +10,14 @@ export class AboutMeComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
-  clg() {
-    console.log('test');
+  showDetails(tool) {
+    switch (tool) {
+      case 'git':
+        this.show_git = !this.show_git;
+        break;
+    }
+  }
+  test() {
+    console.log('loco');
   }
 }

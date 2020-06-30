@@ -24,10 +24,12 @@
         <div class="col-12 col-sm-6">
 
             <div class="card my-2">
-                <div class="card-body">
+                <div (mouseover)="test()" class="card-body">
                     <h5 class="card-title">Git/Gitflow</h5>
-                    <p (click)="clg()">{{ 'aboutMe.moreDetails' | translate }}</p>
-                    <p *ngIf="show_git">Aquí voy a colocar alguna información detallada sobre la herramienta....</p>
+                    <p (click)="showDetails('git')">{{ 'aboutMe.moreDetails' | translate }}</p>
+                    <p *ngIf="show_git">Conocimientos suficientes para realizar trabajo remoto,
+                        creación, unión de
+                        ramas. etc.</p>
 
                 </div>
             </div>
@@ -35,12 +37,14 @@
                 <div class="card-body">
                     <h5 class="card-title">Node</h5>
                     <p>{{ 'aboutMe.moreDetails' | translate }}</p>
+                    <p>Creación de APIs RESTful, conexión a base de datos, ORMs y próximamente microservicios.</p>
                 </div>
             </div>
             <div class="card my-2">
                 <div class="card-body">
                     <h5 class="card-title">Angular</h5>
                     <p>{{ 'aboutMe.moreDetails' | translate }}</p>
+                    <p>Conocimientos intermedios de Angular, SPA, PWA, etc.</p>
                 </div>
             </div>
 
@@ -51,18 +55,22 @@
                 <div class="card-body">
                     <h5 class="card-title">Mongo</h5>
                     <p>{{ 'aboutMe.moreDetails' | translate }}</p>
+                    <p>Índices, backups, gestión de usuarios y consultas en general.</p>
                 </div>
             </div>
             <div class="card my-2">
                 <div class="card-body">
                     <h5 class="card-title">Aws</h5>
                     <p>{{ 'aboutMe.moreDetails' | translate }}</p>
+                    <p>Amazon S3, EC2, SES,Lightsail.</p>
                 </div>
             </div>
             <div class="card my-2">
                 <div class="card-body">
-                    <h5 class="card-title">Typescript</h5>
+                    <h5 class="card-title">Buenas práctias</h5>
                     <p>{{ 'aboutMe.moreDetails' | translate }}</p>
+                    <p>Aprendiendo pattroes de diseño, principios Solid, Arquitectura de N capas, Arquitectura
+                        hexagonal.</p>
                 </div>
             </div>
 
