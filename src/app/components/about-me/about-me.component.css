@@ -36,6 +36,7 @@
   border-radius: 20px;
   opacity: 0.8;
   cursor: pointer;
+  font-weight: 900;
 }
 
 .skills_cardAngular-backgrund {
@@ -48,6 +49,7 @@
   border-radius: 20px;
   opacity: 0.8;
   cursor: pointer;
+  font-weight: 900;
 }
 
 .skills_cardMongo-backgrund {
@@ -60,6 +62,7 @@
   border-radius: 20px;
   opacity: 0.8;
   cursor: pointer;
+  font-weight: 900;
 }
 
 .skills_cardAws-backgrund {
@@ -73,6 +76,7 @@
   border-radius: 20px;
   opacity: 0.8;
   cursor: pointer;
+  font-weight: 900;
 }
 
 .skills_cardGoodPractices-backgrund {
@@ -80,7 +84,7 @@
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
     ),
-    url("../../../assets/img/arquitecturahex.png");
+    url("/assets/img/arquitecturahex.png");
   background-size: cover;
 
   border-radius: 20px;
