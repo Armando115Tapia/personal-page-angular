@@ -28,5 +28,8 @@
         "skill_4": "Indixes, backups, management of users and querys",
         "skill_5": "Amazon S3, EC2, SES,Lightsail",
         "skill_6": "Constantly learing , Arquitectura de N capas, Arquitectura hexagonal"
+    },
+    "buttons": {
+        "aboutMe_pryectos": "Some projects"
     }
 }

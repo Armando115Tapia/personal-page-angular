@@ -28,5 +28,8 @@
         "skill_4": "Índices, backups, gestión de usuarios y consultas en general",
         "skill_5": "Amazon S3, EC2, SES,Lightsail",
         "skill_6": "Aprendiendo pattroes de diseño, principios Solid, Arquitectura de N capas, Arquitectura hexagonal"
+    },
+    "buttons": {
+        "aboutMe_pryectos": "Algunos proyectos"
     }
 }
