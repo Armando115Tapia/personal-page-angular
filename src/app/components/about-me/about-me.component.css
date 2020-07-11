@@ -23,7 +23,6 @@
   background-size: cover;
   border-radius: 20px;
   cursor: pointer;
-  font-weight: 900;
 }
 
 .skills_cardNode-backgrund {
@@ -36,7 +35,6 @@
   border-radius: 20px;
   opacity: 0.8;
   cursor: pointer;
-  font-weight: 900;
 }
 
 .skills_cardAngular-backgrund {
@@ -49,7 +47,6 @@
   border-radius: 20px;
   opacity: 0.8;
   cursor: pointer;
-  font-weight: 900;
 }
 
 .skills_cardMongo-backgrund {
@@ -62,7 +59,6 @@
   border-radius: 20px;
   opacity: 0.8;
   cursor: pointer;
-  font-weight: 900;
 }
 
 .skills_cardAws-backgrund {
@@ -76,7 +72,6 @@
   border-radius: 20px;
   opacity: 0.8;
   cursor: pointer;
-  font-weight: 900;
 }
 
 .skills_cardGoodPractices-backgrund {
@@ -90,4 +85,8 @@
   border-radius: 20px;
   opacity: 0.8;
   cursor: pointer;
+}
+
+.card__title--bold {
+  font-weight: 900;
 }

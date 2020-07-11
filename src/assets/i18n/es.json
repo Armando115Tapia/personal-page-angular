@@ -7,17 +7,15 @@
     "navBar": {
         "about_me": "Acerca de Mi!",
         "proyects": "Proyectos",
-        "awesome_tools": "Herramientas increibles",
-        "contact": "Contacto",
-        "awesome_repositories": "Repositorios increibles",
+        "cv": "Curriculum",
         "post": "Entradas"
     },
     "aboutMe": {
         "Description": "Acerca de mí",
-        "paragraph_0": "Saludos desde Quito-Ecuador, ingeniero en sistemas, en este proceso fue que descubrí que iba a dedicarme al desarrollo web, al saberlo antes huubiera estudiado ingeniera en software.",
-        "paragraph_1": "Durante mi vida labora mas me he dedicado al al backend, especialmente utilizando tecnologías javascript y el framework express, pero además he incursionado un poco en el frontend utilizando Angular",
-        "paragraph_2": "Actualmente estoy siempre aprendiendo sobre buenas prácticas, principios SOLID, Arquitecturas, seguridades y todo lo relacionado con informática.",
-        "paragraph_3": "Para más información, pulsa aquí...",
+        "paragraph_0": "Soy de Quito-Ecuador estudie ingeniería en sistemas, pero ahora soy desarrollador de software, programar paso de ser un pasatiempo y se convirtió en la forma en me gano la vida.",
+        "paragraph_1": "En el mundo de la informática, todos los que formamos parte de él, sabemos que cada día aparecen nuevas herramientas por que somos y seremos eternos estudiantes.",
+        "paragraph_2": "Entusiasta de JavaScript y Python, con más experiencia en JavaScript con Node.js, para el backend express y para el frontend Angular +2 y react.",
+        "paragraph_3": "Aprendiendo sobre buenas prácticas, principios SOLID, patrones de diseño y arquitecturas limpias.",
         "skills": "Habilidades",
         "moreDetails": "Click para ver mas detalles"
     },
